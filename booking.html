@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>APPOINTMENT</title>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="deco-about">
+                <img src="book.svg">
+            </div>
+            <div class="main">
+                <div class="logo1">
+                    <img src="logo.png">
+                </div>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="booking.html">BOOK AN APPOINTMENT</a></li>
+                    <li><a href="doctors.html">DOCTORS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="tip">
+                <Enter><h1>Enter your details below, our team will contact you shortly.</h1></Enter>
+            </div>
+        <form class="form">
+            <table>
+                <tr>
+                    <td>
+                        <name1>Name: </name1>
+                    </td>
+                    <td>
+                       <name2> <input type="text" id="name" placeholder="Name" size="50" name="" required></name2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       <age1> Age: </age1>
+                    </td>
+                    <td>
+                        <age2></age><input type="number" id="age" placeholder="Age" age="" required></age2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <gen1>Gender:</gen1>
+                    </td>
+                    <td>
+                        <gen2><input type="radio" id="male" name="Gender" required>Male</gen2>
+                        <gen3><input type="radio" id="female" name="Gender" required>Female</gen3>
+                        <gen4><input type="radio" id="trans" name="Gender" required>Transgender</gen4>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <mail1>Email: </mail1>
+                    </td>
+                    <td>
+                            <mail2><input type="mail" id="mail" placeholder="Email ID" mail="" size="50" required></mail2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ph1>Phone no: </ph1>
+                    </td>
+                    <td>
+                        <select class="ph3">
+                           <ph3> <option>91</option></ph3>
+                           <ph3><option>977</option></ph3>
+                            <ph3><option>01</option></ph3>
+                            <ph3><option>597</option></ph3>
+                            <ph3><option>971</option></ph3>
+                        </select>
+                        <ph2><input type="number" placeholder="Phone no" id="ph" phone="" maxlength="10" required></ph2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <add1>Adress:</add1>
+                    </td>
+                    <td>
+                        <add2><input type="text" placeholder="Adress" id="adress" size="70"  adress="" required> </add2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <sel1>Select Physician: </sel1>
+                    </td>
+                    <td>
+                        <select class="select1">
+                            <sel2><option>Psychiatrist</option></sel2>
+                            <sel2><option>Pediatrician</option></sel2>
+                            <sel2><option>Surgeon</option></sel2>
+                            <sel2><option>Neurologist</option></sel2>
+                            <sel2><option>Dentist</option></sel2>
+                            <sel2><option>Gynecologist</option></sel2>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <sub1><input type="image" src="submit.png" id="sub" alt="Submit"  height="40px" onclick="validateform() "></sub1>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </header>
+    </body>
+    <script type="text/javascript">
+        function validateform()
+        {
+            if(document.getElementById("name").value=="")
+            {
+                alert("Please enter Name");
+                return false;
+            }
+            if(document.getElementById("age").value=="")
+            {
+                alert("Please enter your age");
+                return false;
+            }
+            if(document.getElementById("mail").value=="")
+            {
+                alert("Please provide your Email ID");
+                return false;
+            }
+            if(document.getElementById("ph").value=="")
+            {
+                alert("Please enter your phone number");
+                return false;
+            }
+            if(document.getElementById("adress").value=="")
+            {
+                alert("Please enter adress");
+                return false;
+            }
+        }
+    </script>
+</html>

@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/blur-hospital.jpg);
+    height :100vh;
+    background-size:cover;
+    background-position: centre;}
+ul
+{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding:5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: white;
+    color:black;
+}
+
+
+.logo1 img{
+    float:left;
+    width:300px;
+    height:auto;
+}
+
+.deco img{
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:400px;
+    height:auto;
+}
+
+.main{
+    max-width:1400px;
+    margin:auto;
+}
+
+.title{
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: skyblue;
+    font-size: 65px;
+}
+
+.button{
+    position:absolute;
+    top: 45%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color:black;
+    background-color: #fff;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.btn:hover{
+    background-color:aquamarine;
+    color:black;
+    zoom:103%;
+}
+
+.deco-about img{
+    position: absolute;
+    top:70%;
+    left:10%;
+    transform: translate(-50%,-50%);
+    width:400px;
+    height:auto
+}
+
+.heading{
+    position: absolute;
+    top:25%;
+    left:25%;
+    right:7%;
+    height:400px;
+    padding:15px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    color: white;
+    border:3px solid aqua;
+    border-bottom: 10px solid black;
+    font-size: 28px;   
+}
+.heading t{
+    font-size: 20px;
+}
+
+
+.heading h1{
+    text-align:left;
+    color:aqua;
+    border-bottom:5px solid white;
+    text-indent: 7px;
+}
+
+.docimg img1{
+    position: absolute;
+    left: 70%;
+    top:18%;
+    transition:0.6s ease;
+}
+.docimg img1:hover{
+    border-right: solid aqua;
+    border-top: solid blue;
+    border-bottom-right-radius: 10px;
+    zoom:101%;
+}
+
+.docimg img2{
+    position: absolute;
+    left: 28%;
+    top:18%;
+    transition:0.6s ease;
+}
+.docimg img2:hover{
+    border-right: solid aqua;
+    border-top: solid blue;
+    border-bottom-right-radius: 10px;
+    zoom:101%;
+}
+
+.docimg img3{
+    position: absolute;
+    left: 49%;
+    top:18%;
+    transition:0.6s ease;
+}
+.docimg img3:hover{
+    border-right: solid aqua;
+    border-top: solid blue;
+    border-bottom-right-radius: 10px;
+    zoom:101%;
+}
+
+.docimg img4{
+    position: absolute;
+    left: 70%;
+    top:60%;
+    transition:0.6s ease;
+}
+.docimg img4:hover{
+    border-right: solid aqua;
+    border-top: solid blue;
+    border-bottom-right-radius: 10px;
+    zoom:101%;
+}
+
+.docimg img5{
+    position: absolute;
+    left: 28%;
+    top:60%;
+    transition:0.6s ease;
+}
+.docimg img5:hover{
+    border-right: solid aqua;
+    border-top: solid blue;
+    border-bottom-right-radius: 10px;
+    zoom:101%;
+}
+
+.docimg img6{
+    position: absolute;
+    left: 49%;
+    top:60%;
+    transition:0.6s ease;
+}
+
+.docimg img6:hover{
+    border-right: solid aqua;
+    border-top: solid blue;
+    border-bottom-right-radius: 10px;
+    zoom:101%;
+}
+
+.docname{
+    text-align: center;
+    border: solid transparent;
+}
+
+
+.docname n1 a{
+    position: absolute;
+    color:white;
+    left: 70%;
+    top:47%;
+    font-size: 25px; 
+    transition: 0.6s ease; 
+}
+.docname n1  a:hover{
+    color:burlywood;
+}
+.docname n2 a{
+    position: absolute;
+    left:28%;
+    color:white;
+    top:47%;
+    font-size: 25px;  
+    transition: 0.6s ease;
+}
+.docname n2 a:hover{
+    color:burlywood;
+}
+
+.docname n3 a{
+    position: absolute;
+    left: 49%;
+    color:white;
+    top:47%;
+    font-size: 25px;  
+    transition: 0.6s ease;
+}
+.docname n3 a:hover{
+    color:burlywood;
+}
+
+.docname n4 a{
+    position: absolute;
+    color:white;
+    left: 28%;
+    top:89%;
+    font-size: 25px;  
+    transition: 0.6s ease;
+}
+.docname n4 a:hover{
+    color:burlywood;
+}
+
+.docname n5 a{
+    position: absolute;
+    color:white;
+    left: 49%;
+    top:89%;
+    font-size: 25px; 
+    transition: 0.6s ease; 
+}
+.docname n5 a:hover{
+    color:burlywood;
+}
+.docname n6 a{
+    position: absolute;
+    color:white;
+    left: 70%;
+    top:89%;
+    font-size: 25px;  
+    transition: 0.6s ease;
+}
+.docname n6 a:hover{
+    color:burlywood;
+}
+
+.form table tr td name1{
+    font-size: 25px;
+    position: absolute;
+    left:30%;
+    top:28%;
+    transition: 0.6s ease;
+    color:#fff;
+}
+
+.form table tr td name2{
+    position: absolute;
+    left:40%;
+    top:28%;
+    transition: 0.6s ease;
+    border: 2px solid aqua;
+    
+}
+
+.form table tr td age1{
+    font-size: 25px;
+    position: absolute;
+    left:30%;
+    top:36%;
+    transition: 0.6s ease;
+    color:#fff;
+}
+
+.form table tr td age2{
+    position: absolute;
+    left:40%;
+    top:36%;
+    transition: 0.6s ease;
+    border: 2px solid aqua;
+}
+
+
+.form table tr td gen1{
+    font-size: 25px;
+    position: absolute;
+    left:30%;
+    top:44%;
+    transition: 0.6s ease;
+    color:#fff;
+}
+
+.form table tr td gen2{
+    font-size: 25px;
+    position: absolute;
+    left:40%;
+    top:44%;
+    transition: 0.6s ease;
+}
+
+.form table tr td gen3{
+    font-size: 25px;
+    position: absolute;
+    left:50%;
+    top:44%;
+    transition: 0.6s ease;
+}
+
+.form table tr td gen4{
+    font-size: 25px;
+    position: absolute;
+    left:60%;
+    top:44%;
+    transition: 0.6s ease;
+}
+
+.form table tr td mail1{
+    font-size: 25px;
+    position: absolute;
+    left:30%;
+    top:52%;
+    transition: 0.6s ease;
+    color:#fff
+}
+
+.form table tr td mail2{
+    
+    position: absolute;
+    left:40%;
+    top:52%;
+    transition: 0.6s ease;
+    font-size: medium;
+    border: 2px solid aqua;
+}
+
+.form table tr td ph1{
+    font-size: 25px;
+    position: absolute;
+    left:30%;
+    top:60%;
+    transition: 0.6s ease;
+    color:#fff
+}
+
+.form table tr td ph2{
+    
+    position: absolute;
+    left:44%;
+    top:60%;
+    transition: 0.6s ease;
+    border: 2px solid aqua;
+}
+
+.ph3{
+    position: absolute;
+    top: 60%;
+    left:40%;
+    border: 2px solid aqua;
+}
+
+.form table tr td add1{
+    font-size: 25px;
+    position: absolute;
+    left:30%;
+    top:68%;
+    transition: 0.6s ease;
+    color:#fff
+}
+
+.form table tr td add2{
+    position: absolute;
+    left:40%;
+    top:68%;
+    transition: 0.6s ease;
+    border: 2px solid aqua;
+}
+
+.form table tr td sel1{
+    
+    position: absolute;
+    font-size: 25px;
+    left:30%;
+    top:76%;
+    transition: 0.6s ease;
+    color:#fff;
+}
+
+.select1 {
+    position: absolute;
+    left:45%;
+    top:77%;
+    transition: 0.6s ease;
+    color:black;
+    font-size: 18px;
+    border: 2px solid aqua;
+}
+
+.form table tr td sub1{
+  position: absolute;
+  top:85%;
+  left:30%;
+}
+.tip{
+    position: absolute;
+    top:18%;
+    left:25%;
+    right:7%;
+    height:490px;
+    padding:20px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    color: aquamarine;
+    border:3px solid aqua;
+    border-bottom: 10px solid black;
+    font-size: 13px;
+}
+
+
